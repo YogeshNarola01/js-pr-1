@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        var p = parseInt(prompt("Enter your Principal Amount :- "));
+        var r = parseInt(prompt("Enter your Monthly rate in % :- "));
+        var n = parseInt(prompt("Enter your Period Time in Month :- "));
+        var a = (p*r*n)/100;
+        var b = p+a;
+        document.write(`<h3>Your Principal Amount is : ${p}</h3>`);
+        document.write(`<h3>Your Monthly rate in % is : ${r}</h3>`);
+        document.write(`<h3>Your Period Time in Month : ${n}</h3>`);
+        document.write(`<h3>Your Rate of Interest : ${a}</h3>`);
+        document.write(`<h2>Your Total Amount is : ${b}</h2>`);
+    </script>
+</body>
+</html>
